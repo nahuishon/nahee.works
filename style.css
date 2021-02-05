@@ -47,7 +47,7 @@ header ul li a
     position: relative;
     margin:10 -25px;
     text-decoration: none;
-    color:rgb(229, 236, 229);
+    color:rgb(255, 255, 255);
     letter-spacing: 2px;
     font-weight: 0px;
     transition: 0.6s;
@@ -58,7 +58,7 @@ header ul li a
    
     display:inline-block;
     padding:40px 40px;
-    border: 7px solid rgb(54, 85, 51);
+    border: 7px solid rgb(79, 104, 79);
     font-size: 15px;
     text-decoration: none;
     color:rgb(54, 85, 51);
@@ -75,4 +75,5 @@ header ul li a
 .lain{
   display: center;
   margin-left: 120px;
+  size:10px;
 }
