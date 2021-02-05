@@ -1,62 +1,65 @@
-@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Amatic+SC:wght@700&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Amatic+SC:wght@700&family=Gayathri:wght@100&display=swap');
-@import url('https://fonts.googleapis.com/css?family=Poppins:200,300,400,500,600,700,800,900&display=swap');
+
 @import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@800&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@1,700&display=swap');
-*
+* {
+  font-family: "verdana";
+  color: rgb(244, 237, 250);
+}
 
 body{
-  background-color: rgb(255, 254, 242);
+  background-color: rgb(19, 19, 17);
   height: 100%;
   margin: 0;
   padding:0;
-  font-family: 'Courier New', Courier, monospace;
    min-height: 100vh;
    cursor: pointer;
-  text-decoration: none underline;
+  text-decoration: none;
   }
+  a:link {
+    text-decoration: none!important;
+  }
+  
   .center {
     position:absolute;
     top:50%;
-    font-family:Montserrat;
-    color:rgb(207, 197, 197);
     transform: translateY(-50%);
     width: 100%;
     text-align: center;
-    text-decoration: none underline;
+    text-decoration: none;
 }
 .text{
+ 
   position:relative;
   display: block;
-  font-size: 80px;
+  font-size: 40px;
   text-transform: uppercase;
-  line-height: 2;
-  color:#FFF;
-  text-shadow: 0 10px 5px rgba(0,0,0,.2);
-  letter-spacing: -10px;
-  transform: skewY(-5deg);
+  line-height: 1.5;
+  text-shadow: 0 20px 5px rgba(0,0,0,.2);
+  letter-spacing: 6px;
+  transform: skewY(-12deg);
+  font-family:Montserrat,sans-serif;
   font-style: none;
   text-decoration: none;
 }
 
 .textlock1{
    z-index: 3;
-   background-color:#D7A9E3FF;
+   background-color:rgb(20, 20, 20);
    text-decoration: none;
+   
 }
 
 .textlock2{
   z-index: 3;
-  background-color: #8BBEE8FF;
+  background-color: rgb(17, 17, 17);
 }
 
 .textlock3{
   z-index: 3;
-  background-color:#A8D5BAFF;
+  background-color:rgb(72, 73, 72);
 }
 .textlock4{
   z-index: 3;
-  background-color: rgb(230, 84, 65);
+  background-color: rgb(68, 66, 66);
   text-decoration: none;
 }
