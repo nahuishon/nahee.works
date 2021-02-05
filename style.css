@@ -3,77 +3,60 @@
 @import url('https://fonts.googleapis.com/css2?family=Amatic+SC:wght@700&family=Gayathri:wght@100&display=swap');
 @import url('https://fonts.googleapis.com/css?family=Poppins:200,300,400,500,600,700,800,900&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@1,700&display=swap');
 *
 
-body,html{
-  background-color: rgb(141, 145, 95);
+body{
+  background-color: rgb(255, 254, 242);
   height: 100%;
   margin: 0;
   padding:0;
   font-family: 'Courier New', Courier, monospace;
    min-height: 100vh;
    cursor: pointer;
+  text-decoration: none underline;
   }
-  header {
-    position:fixed;
-    background:rgb(141, 145, 95);
-    top:600px;
-    left:10;
+  .center {
+    position:absolute;
+    top:50%;
+    font-family:Montserrat;
+    color:rgb(207, 197, 197);
+    transform: translateY(-50%);
     width: 100%;
-    display: flex;
-    justify-content:space-between ;
-    align-items:center;
-    transition:0.5s;
-    padding:1px 1px;
+    text-align: center;
+    text-decoration: none underline;
 }
-.headline{
-  color: rgb(255, 255, 255);
-  margin-left: 30px;
-}
-header ul
-{
-    position: relative;
-    display:flex;
-    justify-content: center;
-    align-items: center;
-}
-header ul li
-{
-    position: relative;
-    list-style: none;
-}
-header ul li a 
-{
-    position: relative;
-    margin:10 -25px;
-    text-decoration: none;
-    color:rgb(255, 255, 255);
-    letter-spacing: 2px;
-    font-weight: 0px;
-    transition: 0.6s;
-    margin-left: 40px;
+.text{
+  position:relative;
+  display: block;
+  font-size: 80px;
+  text-transform: uppercase;
+  line-height: 2;
+  color:#FFF;
+  text-shadow: 0 10px 5px rgba(0,0,0,.2);
+  letter-spacing: -10px;
+  transform: skewY(-5deg);
+  font-style: none;
+  text-decoration: none;
 }
 
-  a{
-   
-    display:inline-block;
-    padding:40px 40px;
-    border: 7px solid rgb(79, 104, 79);
-    font-size: 15px;
-    text-decoration: none;
-    color:rgb(54, 85, 51);
-    margin-top:-12px;
-  }
- 
-  .home
-{
-    position: relative;
-    display:flex;
-    justify-content: center;
-    align-items: center;
+.textlock1{
+   z-index: 3;
+   background-color:#D7A9E3FF;
+   text-decoration: none;
 }
-.lain{
-  display: center;
-  margin-left: 120px;
-  size:10px;
+
+.textlock2{
+  z-index: 3;
+  background-color: #8BBEE8FF;
+}
+
+.textlock3{
+  z-index: 3;
+  background-color:#A8D5BAFF;
+}
+.textlock4{
+  z-index: 3;
+  background-color: rgb(230, 84, 65);
+  text-decoration: none;
 }
