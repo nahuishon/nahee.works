@@ -1,6 +1,7 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@800&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lexend+Mega&display=swap');
 * {
   font-family: "verdana";
   color: rgb(244, 237, 250);
@@ -37,7 +38,7 @@ body{
   text-shadow: 0 20px 5px rgba(0,0,0,.2);
   letter-spacing: 6px;
   transform: skewY(-2deg);
-  font-family:Montserrat,sans-serif;
+  font-family:'Lexend Mega', sans-serif;
   font-style: none;
   text-decoration: none;
 }
