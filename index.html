@@ -13,17 +13,28 @@
    <!-- Link to your stylesheet -->
     <link rel="stylesheet" href="style.css">
 </head>
- <body>
-  
-    
-    <div class="center">
-        <div class="text textlock1"><a href="./pages/about.html">WELCOME TO MY WEBSITE</a></div>
-        <div class="text textlock2"><a href="./pages/about.html">ABOUT ME</a></div>
-        <div class="text textlock3"><a href="https://nahuishon.github.io/story.nahee/">STUDIO PROJECT</a></div>
-        <div class="text textlock4"><a href="https://nahuishon.github.io/nahee/">LAB PROJECT</a></div>
-    </div>
-     
+<body>
+  <header>
+    <a href="#" class="logo">Nahui Shon</a>
+        <ul>
+           <li><a href="index.html">WORK</a></li>
+           <li><a href="aboutme.html">ABOUT ME</a></li>
+           <li><a href="contact.html">contact</a></li>
+       </ul>
+</header>
+<section class="banner"></section>
+<script type="text/javascript">
+window.addEventListener("scroll", function(){
+    var header= document.querySelector("header");
+    header.classList.toggle("sticky", window.scrolly >0);
+})
+</script>
+   <div class="banner-img"></div>
+    <div class="banner-text">
+      <h1>NAHEE'S HOMEPAGE</h1>
+      <p>click here to go my poster assigment</p>
+      <a href="#">click here</a>
+      </div>
+    </body>
+ </html>
 
-</body>
-
-</html>
