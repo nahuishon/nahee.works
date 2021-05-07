@@ -1,147 +1,45 @@
-
-@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@800&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@1,700&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Lexend+Mega&display=swap');
+@font-face {
+  font-family: Moderne Sans;
+  src: url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/4273/moderne_sans.woff2)
+}
 * {
-  font-family: "verdana";
-  color: rgb(244, 237, 250);
+  box-sizing: border-box;
 }
-
-body,html{
-  height: 100%;
+body {
   margin: 0;
-  padding:0;
-  font-family: 'Courier New', Courier, monospace;
-   min-height: 100vh;
-   cursor: pointer;
-  }
-  header {
-    position:fixed;
-    background: rgb(255, 255, 255);
-    color: #5e4e4e;
-    top:-10px;
-    left:10;
-    width: 100%;
-    display: flex;
-    justify-content:space-between ;
-    align-items:center;
-    padding:1px 1px;
-}
-header.sticky
-{
-    padding:5px 10px;
-    background: rgb(19, 18, 18);
-}
-header .logo
-{
-    position: relative;
-    margin-left: 30px;
-    font-weight:500;
-    color:rgb(29, 29, 29);
-    text-decoration:none;
-    font-size: 1em;
-    text-transform: uppercase;
-    letter-spacing: 0.5px;
-}
-header ul
-{
-    position: relative;
-    display:flex;
-    justify-content: center;
-    align-items: center;
-}
-header ul li
-{
-    position: relative;
-    list-style: none;
-}
-header ul li a 
-{
-    position: relative;
-    margin:0 15px;
-    text-decoration: none;
-    color:rgb(22, 22, 22);
-    letter-spacing: 1px;
-    font-weight: 300px;
+  background: #000;
+  background-size: cover;
 }
 
- h1{
-   font-size:60px;
-   text-transform: uppercase;
-   margin:0;
- }
-   
-  .banner-img{
-      background-image: url(1.jpeg);
-      -webkit-background-size:cover;
-      background-size: cover;
-      background-repeat: repeat;
-      background-position: center center;
-      margin-top: 50px;
-      height: 100%;
-      filter:blur(10px)
-  }
-  .banner-text{
-    position:absolute;
-    top:50%;
-    left:50%;
-    transform: translate(-50%,-50%);
-    z-index: 5;
-    width: 45%;
-    padding: 40px;
-    text-align: center;
-    border-top-left-radius: 30%;
-    border-bottom-right-radius:30%;
-    background-color: rgb(0, 0, 0);
-    color:#fff;
-    font-weight: bold;
-    border:10px inset #fff;
-  }
-.banner-text p{
-    padding: 0 8%;
-    font-family: merienda;
+header {
+  position: fixed;
+  width: 100%;
+  text-align: center;
+  color: white;
+  transition: .4s;
 }
-  a{
-    display:inline-block;
-    padding: 10px 50px;
-    border: 2px solid #fff;
-    font-size: 18px;
-    text-decoration: none;
-    color:#fff;
-    margin-top:15px;
-  }
-  .cursor{
-    position: fixed;
-    width: 50px;
-    height: 50px;
-    border: 1px solid #5e4e4e;
-    border-radius: 50%;
-    left: 0;
-    top: 0;
-    pointer-events: none;
-    transform: translate(-50%, -50%);
-    transition: .1s;
-  }
-  
-  .cursor2{
-    position: fixed;
-    width: 8px;
-    height: 8px;
-    background-color: #c6c6c6;
-    border-radius: 50%;
-    left: 0;
-    top: 0;
-    pointer-events: none;
-    transform: translate(-50%, -50%);
-    transition: .15s;
-  }
-  
-  .content:hover ~ .cursor{
-    transform: translate(-50%, -50%) scale(1.5);
-    background-color: #8b8989;
-    opacity: .5;
-  }
-  
-  .content:hover ~ .cursor2{
-    opacity: 10;
-  }
+header:hover {
+  background: rgba(255,255,255,0.8);
+  color: #000;
+}
+h1 {
+  font-family: Moderne Sans, sans-serif;
+  text-align: center;
+  font-size: 2rem;
+  width: 100%;
+  letter-spacing: .5rem;
+}
+nav a {
+  text-decoration: none;
+  color: inherit;
+  padding: 1rem;
+}
+h2 { 
+  font-family: Century Schoolbook, Century Schoolbook L, Georgia, serif;
+  font-size: 8vmin;
+  text-align: center;
+  margin: 2rem 3rem 0;
+  mix-blend-mode: overlay;
+  color: #fff;
+  font-weight: 100;
+}
