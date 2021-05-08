@@ -17,6 +17,7 @@ header {
   color: white;
   transition: .4s;
   margin-bottom: 120px;
+  margin-top: -280px;
 }
 header:hover {
   background: rgba(255,255,255,0.8);
