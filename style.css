@@ -32,9 +32,19 @@ body {
   width: 100vw;
   text-align: center;
 }
+.left .content1 {
+  width: 100vw;
+  text-align:left;
+}
 .right .content {
   width: 100vw;
   text-align: center;
+  transform: translate(-50vw);
+}
+
+.right .content2 {
+  width: 100vw;
+  text-align: right;
   transform: translate(-50vw);
 }
 span {
@@ -66,22 +76,14 @@ h1 {
   
 }
 
-header nav a {
+a {
   text-decoration: none;
   color: rgb(51, 204, 184);
-  padding: 2rem;
+  padding: 1rem;
   margin-bottom: 300px;
   text-align: center;
 }
-
-.container {
-  min-height: 100vh;
-display: flex;
-align-items: center;
-justify-content: center;
-
-}
-   
+ 
  
 h2{
   font-size: 20px;
@@ -93,7 +95,7 @@ h2{
   width: 700px;
 align-items: center;
 justify-content: center;
-margin-left: 260px;
+margin-left: 160px;
 letter-spacing: 1px;
 line-height: 43px;
 }
