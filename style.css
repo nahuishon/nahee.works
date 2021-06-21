@@ -3,21 +3,55 @@
   src: url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/4273/moderne_sans.woff2)
 }
 * {
-  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
 }
 body {
-  margin: 0;
-  background: #000;
-  background-size: cover;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.line {
+  width: 100vw;
+}
+.left, .right {
+  width: 50vw;
+  overflow: hidden;
+  display: inline-block;
+}
+.left {
+  color:pink;
+  transform: skew(0deg, -15deg);
+}
+.right {
+  color: black;
+  transform: skew(0deg, 15deg);
+}
+.left .content {
+  width: 100vw;
+  text-align: center;
+}
+.right .content {
+  width: 100vw;
+  text-align: center;
+  transform: translate(-50vw);
+}
+span {
+  display: inline-block;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 10vw;
+  text-transform: uppercase;
+  line-height: .8;
+  transition: ease-out .6s;
 }
 header {
-  position: fixed;
+  position:fixed;
   width: 100%;
   text-align: center;
   color: white;
   transition: .4s;
-  margin-bottom: 120px;
-  margin-top: -280px;
+  margin-top:0px;
 }
 header:hover {
   background: rgba(255,255,255,0.8);
@@ -26,17 +60,18 @@ header:hover {
 h1 {
   font-family: Century Schoolbook, Century Schoolbook L, Georgia, serif;
   text-align: center;
-  font-size: 2rem;
+  font-size: 4rem;
   width: 100%;
-  letter-spacing: .5rem;
+  letter-spacing: 1rem;
   
-
 }
+
 header nav a {
   text-decoration: none;
-  color: inherit;
-  padding: 1rem;
+  color: rgb(51, 204, 184);
+  padding: 2rem;
   margin-bottom: 300px;
+  text-align: center;
 }
 
 .container {
