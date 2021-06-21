@@ -12,17 +12,24 @@ body {
   justify-content: center;
   align-items: center;
 }
+
+header {
+  width: 500vw;
+  text-align:center;
+  margin-top: 10px;
+}
+
 .line {
-  width: 100vw;
+  width: 90vw;
 }
 .left, .right {
-  width: 50vw;
+  width: 45vw;
   overflow: hidden;
   display: inline-block;
 }
 .left {
-  color:pink;
-  transform: skew(0deg, -15deg);
+  color:rgb(67, 134, 136);
+  transform: skew(20deg, -15deg);
 }
 .right {
   color: black;
@@ -31,11 +38,9 @@ body {
 .left .content {
   width: 100vw;
   text-align: center;
+  transform: translate(-10vw);
 }
-.left .content1 {
-  width: 100vw;
-  text-align:left;
-}
+
 .right .content {
   width: 100vw;
   text-align: center;
@@ -49,24 +54,14 @@ body {
 }
 span {
   display: inline-block;
-  font-family: 'Montserrat', sans-serif;
-  font-size: 10vw;
+  font-family: Century Schoolbook, Century Schoolbook L, Georgia, serif;
+  font-size: 7vw;
   text-transform: uppercase;
   line-height: .8;
   transition: ease-out .6s;
 }
-header {
-  position:fixed;
-  width: 100%;
-  text-align: center;
-  color: white;
-  transition: .4s;
-  margin-top:0px;
-}
-header:hover {
-  background: rgba(255,255,255,0.8);
-  color: #000;
-}
+
+
 h1 {
   font-family: Century Schoolbook, Century Schoolbook L, Georgia, serif;
   text-align: center;
@@ -80,22 +75,7 @@ a {
   text-decoration: none;
   color: rgb(51, 204, 184);
   padding: 1rem;
-  margin-bottom: 300px;
+  margin-bottom: 100px;
   text-align: center;
 }
- 
- 
-h2{
-  font-size: 20px;
-  color: aliceblue;
-  text-align: center;
-  font-family: Century Schoolbook, Century Schoolbook L, Georgia, serif;
-  margin-top: 300px;
-  display: flex;
-  width: 700px;
-align-items: center;
-justify-content: center;
-margin-left: 160px;
-letter-spacing: 1px;
-line-height: 43px;
-}
+
