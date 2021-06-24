@@ -13,9 +13,9 @@ const spansFast = document.querySelectorAll('.spanFast');
 let width = window.innerWidth;
 
 function handleMouseMove(e) {
-  let normalizedPosition = e.pageX / (width/4) - 2;
+  let normalizedPosition = e.pageX / (width/6) - 3;
   let speedSlow = 100 * normalizedPosition;
-  let speedFast = 200 * normalizedPosition;
+  let speedFast = 100 * normalizedPosition;
   spansSlow.forEach((span) => {
     span.style.transform = `translate(${speedSlow}px)`;
   });
