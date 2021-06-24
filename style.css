@@ -13,11 +13,34 @@ body {
   align-items: center;
 }
 
-header {
-  width: 500vw;
-  text-align:center;
-  margin-top: 10px;
+h1 {
+  font-family: Century Schoolbook, Century Schoolbook L, Georgia, serif;
+  text-align: center;
+  font-size: 2rem;
+  width: 100%;
+  letter-spacing: 1rem;
+  
 }
+
+#container{
+  width: 95vw;
+ height: 60vh;
+ margin: 0 auto;
+ background-color: whitesmoke;
+ outline: 8px solid rgb(152, 166, 167);
+ display: grid;
+ grid-template-columns: repeat(3,1fr);
+ grid-template-rows:100px 50px ;
+}
+
+a {
+  text-decoration: none;
+  color: rgb(51, 204, 184);
+  padding: 1rem;
+  margin-bottom: 100px;
+  text-align: center;
+}
+
 
 .line {
   width: 90vw;
@@ -62,20 +85,5 @@ span {
 }
 
 
-h1 {
-  font-family: Century Schoolbook, Century Schoolbook L, Georgia, serif;
-  text-align: center;
-  font-size: 4rem;
-  width: 100%;
-  letter-spacing: 1rem;
-  
-}
 
-a {
-  text-decoration: none;
-  color: rgb(51, 204, 184);
-  padding: 1rem;
-  margin-bottom: 100px;
-  text-align: center;
-}
 
