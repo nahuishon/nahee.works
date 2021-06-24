@@ -6,53 +6,61 @@
   margin: 0;
   padding: 0;
 }
-body {
-  height: 100vh;
-  display: flex;
-  justify-content: center;
-  align-items: center;
+
+body{
+  background-color:  whitesmoke;
 }
 
 h1 {
   font-family: Century Schoolbook, Century Schoolbook L, Georgia, serif;
   text-align: center;
-  font-size: 2rem;
+  font-size: 1px;
   width: 100%;
-  letter-spacing: 1rem;
-  
+  margin: 30px;
 }
 
 #container{
-  width: 95vw;
- height: 60vh;
+  width: 85vw;
+ height: 90vh;
  margin: 0 auto;
  background-color: whitesmoke;
- outline: 8px solid rgb(152, 166, 167);
+
  display: grid;
  grid-template-columns: repeat(3,1fr);
- grid-template-rows:100px 50px ;
+ margin-top: 10px;
 }
 
-a {
+a{
   text-decoration: none;
   color: rgb(51, 204, 184);
   padding: 1rem;
-  margin-bottom: 100px;
-  text-align: center;
 }
 
+.one{
+  margin-top: 50px;
+  margin-right: -180px;
+}
+
+.two{
+  margin-top: 210px;
+  margin-left: 170px;
+}
+.three{
+  margin-top: 50px;
+  margin-left: -150px;
+}
 
 .line {
-  width: 90vw;
+  width: 70vw;
 }
 .left, .right {
-  width: 45vw;
+  width: 35vw;
   overflow: hidden;
   display: inline-block;
 }
 .left {
   color:rgb(67, 134, 136);
-  transform: skew(20deg, -15deg);
+  transform: skew(0deg, -15deg);
 }
 .right {
   color: black;
@@ -61,7 +69,7 @@ a {
 .left .content {
   width: 100vw;
   text-align: center;
-  transform: translate(-10vw);
+  transform: translate(-55vw);
 }
 
 .right .content {
@@ -70,18 +78,14 @@ a {
   transform: translate(-50vw);
 }
 
-.right .content2 {
-  width: 100vw;
-  text-align: right;
-  transform: translate(-50vw);
-}
+
 span {
   display: inline-block;
   font-family: Century Schoolbook, Century Schoolbook L, Georgia, serif;
-  font-size: 7vw;
+  font-size: 4vw;
   text-transform: uppercase;
   line-height: .8;
-  transition: ease-out .6s;
+  transition: ease-out .9s;
 }
 
 
