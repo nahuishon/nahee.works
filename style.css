@@ -112,10 +112,13 @@ span {
 
 .three{
   margin-top: 50px;
-  margin-left: -100px;
+  margin-left: 1000px;
+  text-decoration: none!important;
 }
 
 .three a{
   margin-right: -100px;
+  text-decoration: none!important;
+  color: #00d7c3;
 }
 
