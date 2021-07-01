@@ -19,26 +19,21 @@ h1{
   margin: 50px;
 }
 
-#container{
-  width: 85vw;
- height: 90vh;
- margin: 0 auto;
- background-color: rgb(255, 204, 204);
-
-}
-
-
 .one{
   width: 100px;
   padding-top: 30px;
-  padding-bottom: 130px;
+  padding-bottom: 1px;
   text-align: center;
   text-transform: uppercase;
-  font-weight: 600;
+  font-weight: 400;
   margin-bottom: 30px;
   cursor: pointer;
   display: inline-block;
   margin-left: 100px;
+  color: #00d7c3;
+  text-decoration: none!important;
+}
+.one a {
   color: #00d7c3;
   text-decoration: none;
 }
@@ -51,21 +46,17 @@ border-radius: 50px;
 transition: all .15s ease-in-out;
 color: #00d7c3;
 }
+
 .button-4:hover {
 box-shadow: 0 0 10px 0 #00d7c3 inset, 0 0 20px 2px #00d7c3;
-border: 3px solid #00d7c3;
+border: 3px solid #a6ece5;
 }
 
 
-.two{
+.main{
   margin-top: 210px;
-  margin-left: -20px;
-
-}
-
-.three{
-  margin-top: 50px;
-  margin-left: -10px;
+  margin-left: 210px;
+margin-right:200px;
 }
 
 .button-3{
@@ -119,6 +110,12 @@ span {
   transition: ease-out 1s;
 }
 
+.three{
+  margin-top: 50px;
+  margin-left: -100px;
+}
 
-
+.three a{
+  margin-right: -100px;
+}
 
