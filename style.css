@@ -20,20 +20,13 @@ h1{
 }
 
 #container{
-  width: 75vw;
+  width: 85vw;
  height: 90vh;
  margin: 0 auto;
- background-color: whitesmoke;
- display: grid;
- grid-template-columns: repeat(3,1fr);
- margin-top: 10px;
+ background-color: rgb(255, 204, 204);
+
 }
 
-a{
-  margin-left: 20px;
-  color: #00d7c3;
-  text-decoration: none;
-}
 
 .one{
   width: 100px;
@@ -42,11 +35,12 @@ a{
   text-align: center;
   text-transform: uppercase;
   font-weight: 600;
-  margin-left: 30px;
   margin-bottom: 30px;
   cursor: pointer;
   display: inline-block;
-
+  margin-left: 100px;
+  color: #00d7c3;
+  text-decoration: none;
 }
 
 .button-4{
