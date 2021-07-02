@@ -13,7 +13,7 @@ const spansFast = document.querySelectorAll('.spanFast');
 let width = window.innerWidth;
 
 function handleMouseMove(e) {
-  let normalizedPosition = e.pageX / (width/6) - 3;
+  let normalizedPosition = e.pageX / (width/5) - 2;
   let speedSlow = 100 * normalizedPosition;
   let speedFast = 100 * normalizedPosition;
   spansSlow.forEach((span) => {
